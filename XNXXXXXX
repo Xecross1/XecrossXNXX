@@ -29,14 +29,6 @@ Tab:AddButton({
 }
 
 game:GetService("Players").LocalPlayer.Character:FindFirstChild("Flimsy Rod").events.cast:FireServer(unpack(args))
-
-
-local args = {
-    [1] = 100,
-    [2] = false
-}
-
-game:GetService("ReplicatedStorage").events.reelfinished:FireServer(unpack(args))
   	end    
 })
 
