@@ -28,7 +28,7 @@ Tab:AddButton({
     [1] = 100
 }
 
-game:GetService("Players").LocalPlayer.Character:FindFirstChild("Nocturnal Rod").events.cast:FireServer(unpack(args))
+game:GetService("Players").LocalPlayer.Character:FindFirstChild("Rod").events.cast:FireServer(unpack(args))
 
   	end    
 })
